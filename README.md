@@ -16,7 +16,7 @@ will generate,
  - par_summary.csv, containing the final parameter summaries
  - covariance_matrix.txt, containing an estiamte of the covariance matrix
  - trace_array.txt, containing the trace for each parameter
- - best_fit_BPL.png, a plot of best-fit line using the MAP estimate of each parameter
+ - best_fit_BPL.png, plot of the best-fit line using expectation values for each parameter
  - tri_plot.pdf, a triangle plot of contours and posterior distributions made with Corner
 
 
