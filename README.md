@@ -3,7 +3,6 @@ Define a broken power law in log space, inject gaussian noise, and fit using PyM
 
 ![BPL](best_fit_BPL.png)
 
-Generate triangle plot with corner
 
 ![tri_plot](tri_plot.png)
 
@@ -13,12 +12,12 @@ Running
 $ python BPL_MCMC.py
 ```
 will generate,
- - summary plots for each parameter
- - a .csv with the final parameter summaries
- - a text file of the covariance matrix
- - a text file containing the trace for each parameter
- - plot of best-fit line using the MAP estimate of each parameter
- - triangle plot of contours and posterior distributions made with Corner
+ - .png summary plots for each parameter
+ - par_summary.csv, containing the final parameter summaries
+ - covariance_matrix.txt, containing an estiamte of the covariance matrix
+ - trace_array.txt, containing the trace for each parameter
+ - best_fit_BPL.png, a plot of best-fit line using the MAP estimate of each parameter
+ - tri_plot.pdf, a triangle plot of contours and posterior distributions made with Corner
 
 
 ## Dependencies
