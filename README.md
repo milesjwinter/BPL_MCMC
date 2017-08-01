@@ -1,10 +1,10 @@
 # Broken-Power-Law MCMC
 Define a broken power law in log space, inject gaussian noise, and fit using PyMC. Make cool traingle plots with Corner. 
 
-![BPL](best_fit_BPL.png)
+![BPL](sample_output/best_fit_BPL.png)
 
 
-![tri_plot](tri_plot.png)
+![tri_plot](sample_output/tri_plot.png)
 
 ## Usage
 Running 
