@@ -12,7 +12,6 @@ Running
 $ python BPL_MCMC.py
 ```
 will generate,
- - .png summary plots for each parameter
  - par_summary.csv, containing the final parameter summaries
  - covariance_matrix.txt, containing an estiamte of the covariance matrix
  - trace_array.txt, containing the trace for each parameter
