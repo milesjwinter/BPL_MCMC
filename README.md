@@ -1,5 +1,5 @@
 # Broken-Power-Law MCMC
-Define a broken power law in log space, inject gaussian noise, and fit using PyMC. Make cool traingle plots with Corner. 
+Generate observation data from a broken power law, inject gaussian noise, and fit data using a MCMC regression model in PyMC. Then, make cool triangle plots with Corner. 
 
 ![BPL](sample_output/best_fit_BPL.png)
 
