@@ -72,7 +72,7 @@ def mu(x=Logx, k=k, xb=xb, a1=a1, a2=a2):
     dN = np.append(dN, -a2*(x[x>xb]-xb)-a1*xb+k)
     return dN
 
-y = pymc.Normal('LF', mu=mu, tau=tau, value=LogF_obs, observed=True)
+y = pymc.Normal('LogF', mu=mu, tau=tau, value=LogF_obs, observed=True)
 
 #Define Model
 m = pymc.Model([k, xb, a1, a2, tau, Logx, y])
