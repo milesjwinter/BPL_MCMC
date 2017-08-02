@@ -35,7 +35,7 @@ p.add_argument("-a1", "--a1_val", dest="a1_val", type=float, default=0.5,
 p.add_argument("-a2", "--a2_val", dest="a2_val", type=float, default=2.5, 
                help="Value of high end slope in log10 space")
 p.add_argument("-p", "--par_vals", dest="par_vals", nargs=4, default=None, type=float,
-               help="space-separated list of parameter values, i.e. -p k Lb a1 a2")
+               help="space-separated list of parameter values, i.e. -p k xb a1 a2")
 args = p.parse_args()
 
 pars = []
