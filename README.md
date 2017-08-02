@@ -1,5 +1,9 @@
 # Broken-Power-Law MCMC
-Generate observation data from a broken power law, inject gaussian noise, and fit data using a MCMC regression model in PyMC. Then, make cool triangle plots with Corner. 
+Generate observation data from a broken power law, 
+
+<img src="bpl_equation.png" width="400">
+
+inject gaussian noise, and fit data using a MCMC regression model in PyMC. Then, make cool triangle plots with Corner. 
 
 ![BPL](sample_output/best_fit_BPL.png)
 
