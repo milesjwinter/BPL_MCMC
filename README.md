@@ -1,9 +1,9 @@
 # Broken-Power-Law MCMC
-Generate observation data from a broken power law, 
+Example of how to fit a broken-power-law distribution using the python PyMC package. We being by generate observation data from a broken power law, 
 
 <img src="bpl_equation.png" width="400">
 
-inject gaussian noise, and fit data using a MCMC regression model in PyMC. Then, make cool triangle plots with Corner. 
+then inject gaussian noise and fit the data using a MCMC regression model in PyMC. Lastly, make cool triangle plots with Corner. 
 
 ![BPL](sample_output/best_fit_BPL.png)
 
