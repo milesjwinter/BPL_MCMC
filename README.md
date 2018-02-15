@@ -1,5 +1,5 @@
 # Broken-Power-Law MCMC
-Example of how to fit a broken-power-law distribution using the python PyMC package. We being by generate observation data from a broken power law, 
+Example of how to fit a broken-power-law distribution using the python PyMC package. We begin by generating observation data from a broken power law, 
 
 <img src="bpl_equation.png" width="400">
 
